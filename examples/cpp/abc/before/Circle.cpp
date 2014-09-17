@@ -1,6 +1,6 @@
 #include "Circle.h"
 
-Circle::Circle(const float r) : radius(r) {}
+Circle::Circle(const float r) : Shape(), radius(r) {}
 
 const char* Circle::getName() const {
   return "Circle";
